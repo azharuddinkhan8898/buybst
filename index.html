@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/rippler.min.css">
+  <link href="css/sidebar.css" rel="stylesheet">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Buybst.in</title>
+</head>
+
+<body>
+  <div class="loadingbar"></div>
+  <!--<div class="loader hide">
+    <div class="loading"></div>
+  </div>-->
+  <div id="header">
+    <div class="logomainpc">
+      <img src="imgs/buybst.svg" alt="">
+    </div>
+    <!--<div class="menuBtn rippler rippler-bs-inverse"><span class="fa fa-bars fa-2x" aria-hidden="true"></span></div>-->
+    <div id="nav">
+      <ul>
+        <li><a href="http://localhost/best/index.html" class="gray active rippler rippler-bs-primary">Home</a></li>
+        <li><a href="#" class="gray rippler rippler-bs-primary">About us</a></li>
+        <li><a href="#" class="gray rippler rippler-bs-primary">Contact us</a></li>
+        <li><span class="divider"></span></li>
+        <li><a href="#" class="gray rippler rippler-bs-primary">Text</a></li>
+        <li><a href="#categories" class="gray rippler rippler-bs-primary">Categories</a></li>
+      </ul>
+    </div>
+  </div>
+  <div data-sidebar="true" class="sidebar-trigger sidebar-togglable">
+    <a class="sidebar-toggle rippler rippler-bs-inverse" href="#">
+      <span class="sr-only">Sidebar toggle</span>
+      <i class="fa fa-sidebar-toggle"></i>
+    </a>
+
+    <div class="sidebar-wrapper sidebar-default sidebar-ready">
+      <div class="sidebar-scroller">
+
+      </div>
+    </div>
+    <div id="sidebar-swipe3" class="sidebar-swipe"></div>
+  </div>
+  <div id="nav_div"></div>
+  <div class="container-fluid my-slider">
+    <div id="buyCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#buyCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#buyCarousel" data-slide-to="1"></li>
+        <li data-target="#buyCarousel" data-slide-to="2"></li>
+        <li data-target="#buyCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="slider_div slider_div1"></div>
+        </div>
+
+        <div class="item">
+          <div class="slider_div slider_div2"></div>
+        </div>
+
+        <div class="item">
+          <div class="slider_div slider_div3"></div>
+        </div>
+
+        <div class="item">
+          <div class="slider_div slider_div4"></div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#buyCarousel" data-slide="prev">
+        <span class="fa fa-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#buyCarousel" data-slide="next">
+        <span class="fa fa-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="categoriesDesk" id="categoriesDesk">
+
+    <div class="categories" id="categories">
+      <div class="categoriesback"><span class="fa fa-angle-left fa-2x" aria-hidden="true"></span></div>
+      <ul>
+        <li class="0 header"><a href="#">Categories<span></span></a></li>
+        <li class="1"><a href="#" data-category="books">Books<span class="fa fa-lg fa-book" aria-hidden="true"></span></a>
+          <ul class="hide">
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+            <li>text</li>
+          </ul>
+        </li>
+        <li class="2"><a href="#" data-category="MobilesTablets">Mobiles &amp; Tablets<span class="fa fa-lg fa-mobile" aria-hidden="true"></span></a></li>
+        <li class="3"><a href="#" data-category="ComputersAccessories">Computers &amp; Accessories<span class="fa fa-lg fa-desktop" aria-hidden="true"></span></a></li>
+        <li class="4"><a href="#" data-category="TVAudioCameras">TV, Audio Cameras<span class="fa fa-lg fa-tv" aria-hidden="true"></span></a></li>
+        <li class="5"><a href="#" data-category="ClothingAccessories">Clothing &amp; Accessories<span class="fa fa-lg fa-book" aria-hidden="true"></span></a></li>
+        <li class="6"><a href="#" data-category="Shoes">Shoes<span><img src="imgs/oxford.svg" alt=""></span></a></li>
+        <li class="7"><a href="#" data-category="Watches">Watches<span><img src="imgs/baby.svg" alt=""></span></a></li>
+        <li class="8"><a href="#" data-category="Sunglasses">Sunglasses<span><img src="imgs/duck.svg" alt=""></span></a></li>
+        <li class="9"><a href="#" data-category="Groceries">Groceries<span><img src="imgs/groceries.png" alt=""></span></a></li>
+        <li class="10"><a href="#" data-category="HandBags">Hand Bags<span><img src="imgs/cardiogram.svg" alt=""></span></a></li>
+      </ul>
+    </div>
+    <div class="container0 container0desk">
+      <div class="productC" data-slick='{"slidesToShow": 3, "slidesToScroll": 2}'>
+        <div>
+          <h3>1</h3>
+        </div>
+        <div>
+          <h3>2</h3>
+        </div>
+        <div>
+          <h3>3</h3>
+        </div>
+        <div>
+          <h3>4</h3>
+        </div>
+        <div>
+          <h3>5</h3>
+        </div>
+        <div>
+          <h3>6</h3>
+        </div>
+        <div>
+          <h3>7</h3>
+        </div>
+        <div>
+          <h3>8</h3>
+        </div>
+        <div>
+          <h3>9</h3>
+        </div>
+        <div>
+          <h3>10</h3>
+        </div>
+        <div>
+          <h3>11</h3>
+        </div>
+        <div>
+          <h3>12</h3>
+        </div>
+        <div>
+          <h3>13</h3>
+        </div>
+        <div>
+          <h3>14</h3>
+        </div>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="box">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+      <div class="catogryData hide" wallyti-block-margin="10"></div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.wallyti.min.js"></script>
+  <script src="js/rippler.min.js"></script>
+  <script src="js/hammer.js"></script>
+  <script src="js/javascript.js"></script>
+  <script src="js/sidebar.js"></script>
+  <script src="js/slick.min.js"></script>
+</body>
+
+</html>
