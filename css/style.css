@@ -238,15 +238,19 @@ a.gray.active::after {
 
 .box {
     /* margin: 10px; */
-    border: 1px solid #eee;
-    padding: 5px;
+    padding: 5px 15px;
     background: #ffffff;
     border-radius: 5px;
-    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    /* -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3); */
+    border:1px solid #e0e0e0;
 }
-
+.box:hover{
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
 .menuBtn {
     height: 30px;
     display: none;
@@ -509,10 +513,10 @@ a.gray.active::after {
     .my-slider {
         display: none;
     }
-    .box {
+     {
         /* margin: 10px; */
         border: 1px solid #eee;
-        padding: 5px;
+        padding: 5px 15px;
         background: #ffffff;
         border-radius: 0px;
         -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.3);
