@@ -90,7 +90,7 @@ $(function() {
         $(".catogryData").empty().removeClass("hide");
         for (i = 0; i < myObj.length; i++) {
           $(".catogryData").append("<div class='box proGrid'></div>");
-          $(".catogryData .box:nth-child(" + (i + 1) + ")").append("<div class='rank'>#" + (i + 1) + "</div>").append("<div class='imgdis'><div class='productimg'><img class='productimg' src='imgs/" + urlcatogery + "/" + myObj[i].image + "'/></div><div class='discription'></div></div>").append("<div class='name'>" + myObj[i].name + "</div>").append("<span class='fa fa-inr' aria-hidden='true'> </span><div class='price'>" + myObj[i].price + "</div>");
+          $(".catogryData .box:nth-child(" + (i + 1) + ")").append("<div class='rank'>#" + (i + 1) + "</div>").append("<div class='imgdis'><div class='productimg-container'><img class='productimg' src='imgs/" + urlcatogery + "/" + myObj[i].image + "'/></div><div class='discription'></div></div>").append("<div class='name'>" + myObj[i].name + "</div>").append("<span class='fa fa-inr' aria-hidden='true'> </span><div class='price'>" + myObj[i].price + "</div>");
           if (i == myObj.length - 1) {
             $('.catogryData').wallyti();
           }
